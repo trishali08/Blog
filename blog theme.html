@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+    <link href="/assets/normalize.css" rel="stylesheet">
+    <style>
+        header {
+            text-align: center;
+            background: url("https://search.chow.com/thumbnail/1280/800/www.chowstatic.com/assets/recipe_photos/30416_new_england_lobster_rolls.jpg");
+            background-size: cover;
+            background-repeat:no-repeat;
+            background-position: center;
+        }
+        img{
+            margin-top: 20px;
+            height: 250px;
+            border: 10px solid black;
+            border-radius: 20px 0px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        h1{
+            font-size: 80px;
+            color: black;
+            font-family: cursive;
+            font-style: italic;
+            text-decoration: underline
+        }
+        ul{
+            padding: 10px;
+            background: rgba(0,0,0,0.5);
+            font-size: 20px;
+            font-weight: bold;
+        }
+        li{
+            display: inline;
+            padding: 0px 10px 0px 10px;
+        }
+        article{
+            max-width: 620px;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        @media (max-width: 620px)
+        {
+            h1{
+                font-size: 36px;
+            }
+            li{
+                display:block;
+                padding: 5px;
+            }
+        }
+        .abc{
+            font-size: 20px;
+            font-family: cursive;
+        }
+        .out{
+            background: linear-gradient(to top left, rgba(255,0,0,.1), rgba(255,0,0,.7));
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://alysonhaley.com/wp-content/uploads/2018/05/where-to-eat-in-positano-alyson-haley-travel-blog-71.jpg">
+        <h1>Allie Eats Blog</h1>
+        <ul>
+            <li><a href="#" style="text-decoration:underline">About Me</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/San_Francisco" style="text-decoration:underline" target="_blank">San Francisco</a></li>
+        </ul>
+    </header>
+    <div class="out">
+    <article>
+        <h2 style="font-size: 40px; font-style:oblique; text-decoration: underline; font-family: fantasy; font-weight: lighter">San-Francisco's Farallon Review :-</h2>
+        <p class="abc">I'm almost ashamed to admit that I have never been to <a href="https://www.farallonrestaurant.com/" style="color: green; font-style: italic; font-weight: bold; " target="_blank">Farallon</a> until my recent visit a couple of weeks ago. Farallon has been around since 1997 and is known to be a classic San Francisco seafood restaurant. The restaurant is housed inside of the historic <a href="http://sfelks.org/" style="color: green; font-style: italic; font-weight: bold; " target="_blank">San Francisco Elks Lodge No.3</a> built in 1925. A step inside and we were transported to an elegant, yet whimsical undersea world, mesmerized by the funky urchin and jellyfish light fixtures. If you're sitting near the open kitchen, you can't miss the hand painted mosaic ceiling. The room we were seated in used to be a boxing room and directly below us a swimming pool for Elks Lodge members only. </p> 
+    
+        <p class="abc">As with any nice seafood restaurant in San Francisco, you can expect the usual raw bar favorites- oysters from the Pacific and Atlantic, grand platters of prawns, crabs, and lobsters. If you're rollin' super fancy, Farallon even has a selection of caviar sold by the ounce and frozen bottles of Stolichnaya or Ketel One to pair with. What really sets Farallon a part though is their local seafood dishes.</p>
+    
+        <p class="abc">There are so many great restaurants in San Francisco! But a convenient, casual spot that I can always count on is <a href="https://www.burmainc.com/burma-love" style="color: green; font-style: italic; font-weight: bold; " target="_blank">Burma Love.</a></p>
+        
+        <h2><u><i>Few recommendations:- </i></u></h2>
+            <ol class="abc">
+                <li>Best sushi: <a href="http://www.sushiwakosf.com/" style="color: green; font-style: italic; font-weight: bold; " target="_blank">Wako</a></li><br>
+                <li>Best craft cocktail: <a href="http://www.pacificcocktailsf.com/" style="color: green; font-style: italic; font-weight: bold; " target="_blank">Pacific Cocktail Haven</a></li><br>
+                <li>Best Sunday brunch: <a href="https://www.eatatplow.com/" style="color: green; font-style: italic; font-weight: bold; " target="_blank">Plow</a></li>
+        </ol>
+        <button onclick="hey()" style="height:200px width:100px">Like</button>
+    </article>
+    </div>
+    <script>
+        function hey(){
+            alert("Thankyou for liking the blog!!");
+        }
+    </script>
+</body>
